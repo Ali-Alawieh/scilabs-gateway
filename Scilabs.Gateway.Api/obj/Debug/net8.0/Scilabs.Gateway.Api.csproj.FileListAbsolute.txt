@@ -131,3 +131,4 @@
 /Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Api/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
 /Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Api/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
 /Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Api/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Api/obj/Debug/net8.0/Scilabs.Gateway.Api.sourcelink.json

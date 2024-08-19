@@ -13,3 +13,4 @@
 /Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Application/obj/Debug/net8.0/refint/Scilabs.Gateway.Application.dll
 /Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Application/obj/Debug/net8.0/Scilabs.Gateway.Application.pdb
 /Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Application/obj/Debug/net8.0/ref/Scilabs.Gateway.Application.dll
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Application/obj/Debug/net8.0/Scilabs.Gateway.Application.sourcelink.json

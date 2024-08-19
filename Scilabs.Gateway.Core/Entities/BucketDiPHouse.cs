@@ -8,13 +8,41 @@ public class BucketDiPHouse
 
     [Column("timeindex")] public DateTime TimeIndex { get; set; }
 
-    [Column("di_p_haus")] public long? di_p_haus { get; set; }
+    [Column("batteryvoltage")] public double? Batteryvoltage { get; set; }
 
-    [Column("di_p_batt_soc")] public long? di_p_batt_soc { get; set; }
+    [Column("batterycurrent")]
+    public double? BatteryCurrent { get; set; }
 
-    [Column("di_p_solar")] public long? di_p_solar { get; set; }
+    [Column("batterypower")]
+    public double? BatteryPower { get; set; }
+    
+    [Column("solarvoltage")]
+    public double? SolarVoltage { get; set; }
 
-    [Column("di_p_netz")] public long? di_p_netz { get; set; }
+    [Column("solarcurrent")]
+    public double? SolarCurrent { get; set; }
 
-    [Column("di_p_wp")] public long? di_p_wp { get; set; }
+    [Column("solarpower")]
+    public double? SolarPower { get; set; }
+    
+    [Column("loadvoltage")]
+    public double? LoadVoltage { get; set; }
+
+    [Column("loadcurrent")]
+    public double? LoadCurrent { get; set; }
+
+    [Column("loadpower")]
+    public double? LoadPower { get; set; }
+
+    [Column("exchangevoltage")]
+    public double? ExchangeVoltage { get; set; }
+    
+    [Column("exchangecurrent")]
+    public double? ExchangeCurrent { get; set; }
+
+    [Column("exchangepower")]
+    public double? ExchangePower { get; set; }
+
+    [Column("currentexchangemode")]
+    public double? CurrentExchangeMode { get; set; }
 }

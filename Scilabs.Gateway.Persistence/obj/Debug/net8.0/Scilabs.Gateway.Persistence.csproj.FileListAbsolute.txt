@@ -17,3 +17,4 @@
 /Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Persistence/obj/Debug/net8.0/Scilabs.Gateway.Persistence.pdb
 /Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Persistence/obj/Debug/net8.0/Scilabs.Gateway.Persistence.genruntimeconfig.cache
 /Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Persistence/obj/Debug/net8.0/ref/Scilabs.Gateway.Persistence.dll
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Persistence/obj/Debug/net8.0/Scilabs.Gateway.Persistence.sourcelink.json

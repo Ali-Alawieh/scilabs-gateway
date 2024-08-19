@@ -33,7 +33,7 @@ public class GetEthouseEntityListQueryHandler(
     {
         if (!string.IsNullOrWhiteSpace(vm.EntityId))
         {
-          var split =  vm.EntityId?.Split(":");
+          var split =  vm.EntityId?.Split("_");
           vm.Name = $"House {split?[^1]}";
           logger.LogInformation($"SetEntityName: House {split?[^1]}"); 
 

@@ -2,9 +2,9 @@
 
 #BUILD
 echo BUILD IMAGE
-docker build  -t freigeist21/scilabs-gateway:0.0.2 . 
+docker build  -t freigeist21/scilabs-gateway:0.0.2-koffer . 
 
 
 #PUSH
 echo PUSH IMAGE
-docker push  freigeist21/scilabs-gateway:0.0.2
+docker push  freigeist21/scilabs-gateway:0.0.2-koffer

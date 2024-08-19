@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Scilabs.Gateway.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c57cb882c0a4b63104665ba1dcff1bd1b0b29300")]
 [assembly: System.Reflection.AssemblyProductAttribute("Scilabs.Gateway.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Scilabs.Gateway.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
