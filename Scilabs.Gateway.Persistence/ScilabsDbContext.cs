@@ -15,7 +15,7 @@ public class ScilabsDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Ethouse>().ToTable("ethouse", "mtstwh");
+        modelBuilder.Entity<Ethouse>().ToTable("etdevice", "mtmodels");
         
         modelBuilder.Entity<BucketDiPHouse>().HasNoKey();
         
