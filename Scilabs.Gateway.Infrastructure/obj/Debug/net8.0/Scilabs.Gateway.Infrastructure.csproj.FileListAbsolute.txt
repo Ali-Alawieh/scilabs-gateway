@@ -1,0 +1,11 @@
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Infrastructure/bin/Debug/net8.0/Scilabs.Gateway.Infrastructure.deps.json
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Infrastructure/bin/Debug/net8.0/Scilabs.Gateway.Infrastructure.dll
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Infrastructure/bin/Debug/net8.0/Scilabs.Gateway.Infrastructure.pdb
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Infrastructure/obj/Debug/net8.0/Scilabs.Gateway.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Infrastructure/obj/Debug/net8.0/Scilabs.Gateway.Infrastructure.AssemblyInfoInputs.cache
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Infrastructure/obj/Debug/net8.0/Scilabs.Gateway.Infrastructure.AssemblyInfo.cs
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Infrastructure/obj/Debug/net8.0/Scilabs.Gateway.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Infrastructure/obj/Debug/net8.0/Scilabs.Gateway.Infrastructure.dll
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Infrastructure/obj/Debug/net8.0/refint/Scilabs.Gateway.Infrastructure.dll
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Infrastructure/obj/Debug/net8.0/Scilabs.Gateway.Infrastructure.pdb
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Infrastructure/obj/Debug/net8.0/ref/Scilabs.Gateway.Infrastructure.dll

@@ -1,0 +1,222 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Identity/Scilabs.Gateway.Identity.csproj": {}
+  },
+  "projects": {
+    "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Application/Scilabs.Gateway.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Application/Scilabs.Gateway.Application.csproj",
+        "projectName": "Scilabs.Gateway.Application",
+        "projectPath": "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Application/Scilabs.Gateway.Application.csproj",
+        "packagesPath": "/Users/alialawieh/.nuget/packages/",
+        "outputPath": "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alialawieh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Core/Scilabs.Gateway.Core.csproj": {
+                "projectPath": "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Core/Scilabs.Gateway.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Core/Scilabs.Gateway.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Core/Scilabs.Gateway.Core.csproj",
+        "projectName": "Scilabs.Gateway.Core",
+        "projectPath": "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Core/Scilabs.Gateway.Core.csproj",
+        "packagesPath": "/Users/alialawieh/.nuget/packages/",
+        "outputPath": "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alialawieh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Identity/Scilabs.Gateway.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Identity/Scilabs.Gateway.Identity.csproj",
+        "projectName": "Scilabs.Gateway.Identity",
+        "projectPath": "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Identity/Scilabs.Gateway.Identity.csproj",
+        "packagesPath": "/Users/alialawieh/.nuget/packages/",
+        "outputPath": "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Identity/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alialawieh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Application/Scilabs.Gateway.Application.csproj": {
+                "projectPath": "/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Application/Scilabs.Gateway.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
