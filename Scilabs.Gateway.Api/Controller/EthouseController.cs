@@ -39,9 +39,9 @@ public class EthouseController : ControllerBase
     [HttpGet("allById", Name = "Get a list of entity values by Id")]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
-    public async Task<ActionResult<List<BucketDiPHouse>>> GetEntityListById([FromQuery] String entityId,[FromQuery]int intervalInMinutes)
+    public async Task<ActionResult<List<BucketDiPHouse>>> GetEntityListById([FromQuery] String entityId)
     {
-        var dtos = await _mediator.Send(new GetEthouseByIdQuery(entityId,intervalInMinutes));
+        var dtos = await _mediator.Send(new GetEthouseByIdQuery(entityId));
         return Ok(dtos);
     }
 }

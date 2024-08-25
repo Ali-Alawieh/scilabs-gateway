@@ -8,7 +8,7 @@ public interface IEthouseRepository : IAsyncRepository<Ethouse>
 
     Task<IReadOnlyList<Ethouse>> ListEntity();
 
-    Task<IReadOnlyList<BucketDiPHouse>> ListAllById(string entityId,int intervalInMinutes);
+    Task<IReadOnlyList<BucketDiPHouse>> ListAllById(string entityId);
 
   
 }

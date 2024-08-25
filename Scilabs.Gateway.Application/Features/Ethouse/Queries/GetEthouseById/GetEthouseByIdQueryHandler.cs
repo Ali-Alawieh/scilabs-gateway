@@ -12,7 +12,7 @@ public class GetEthouseByIdQueryHandler(IEthouseRepository repository, IMapper m
 {
     public async Task<List<BucketDiPHouse>> Handle(GetEthouseByIdQuery request, CancellationToken cancellationToken)
     {
-        var houseDataList = await repository.ListAllById(request.EntityId,request.IntervalInMinutes);
+        var houseDataList = await repository.ListAllById(request.EntityId);
 
         if (houseDataList.Count == 0)
         {

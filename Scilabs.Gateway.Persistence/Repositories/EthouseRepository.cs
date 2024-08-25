@@ -27,12 +27,11 @@ public class EthouseRepository(ScilabsDbContext dbContext,IConfiguration configu
     }
 
 
-    public async Task<IReadOnlyList<BucketDiPHouse>> ListAllById(string entityId,int intervalInMinutes)
+    public async Task<IReadOnlyList<BucketDiPHouse>> ListAllById(string entityId)
     {
-        var interval = $"{intervalInMinutes} minutes";
-        var query = $@"
+        var query = @"
         SELECT DISTINCT ON (timeindex)
-            time_bucket('{interval}', time_index) AS timeindex,
+            time_bucket('30 sec', time_index) AS timeindex,
             AVG(batteryvoltage) AS batteryvoltage,
             AVG(batterycurrent) AS batterycurrent,
             AVG(batterypower) AS batterypower,
@@ -48,7 +47,7 @@ public class EthouseRepository(ScilabsDbContext dbContext,IConfiguration configu
             AVG(currentexchangemode) AS currentexchangemode,
             entity_id AS entityid
         FROM mtmodels.etdevice
-        WHERE entity_id = {1}
+        WHERE entity_id = {0}
         GROUP BY timeindex, entity_id
         ORDER BY timeindex DESC
         LIMIT 10";
