@@ -1,4 +1,7 @@
 /Scilabs.Gateway.Core/obj/
 /Scilabs.Gateway.Api/obj/
 /Scilabs.Gateway.Application/obj/
-/*/Debug
+/Scilabs.Gateway.Identity/obj/
+/Scilabs.Gateway.Persistence/obj/
+/Scilabs.Gateway.Infrastructure/obj/
+
