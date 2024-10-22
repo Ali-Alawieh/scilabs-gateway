@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Npgsql;
+using NpgsqlTypes;
 using Scilabs.Gateway.Application.Contract.Persistence;
 using Scilabs.Gateway.Core.Entities;
 
@@ -25,11 +26,11 @@ public class EthouseRepository(ScilabsDbContext dbContext,IConfiguration configu
     }
 
 
-    public async Task<IReadOnlyList<BucketDiPHouse>> ListAllById(string entityId)
+    public async Task<IReadOnlyList<BucketDiPHouse>> ListAllById(string entityId, int intervalInMinutes)
     {
-        var query = @"
+        var query = $@"
         SELECT DISTINCT ON (timeindex)
-            time_bucket('30 min', time_index) AS timeindex,
+            time_bucket('{intervalInMinutes} minutes', time_index) AS timeindex,
             AVG(di_p_haus) AS di_p_haus,
             AVG(di_p_batt_soc) AS di_p_batt_soc,
             AVG(di_p_solar) AS di_p_solar,
@@ -37,14 +38,19 @@ public class EthouseRepository(ScilabsDbContext dbContext,IConfiguration configu
             AVG(di_p_wp) AS di_p_wp,
             entity_id AS entityid
         FROM mtstwh.ethouse
-        WHERE entity_id = {0}
+        WHERE entity_id = @entityId
         GROUP BY timeindex, entity_id
         ORDER BY timeindex DESC
-        LIMIT 10";
+        LIMIT 100";
+        
+        var intervalParameter = new NpgsqlParameter("interval", NpgsqlDbType.Text) { Value = "30 minutes" };
+        var entityIdParameter = new NpgsqlParameter("entityId", NpgsqlDbType.Text) { Value = entityId };
 
         var result = await dbContext.Set<BucketDiPHouse>()
-            .FromSqlRaw(query, new NpgsqlParameter("entityId", entityId))
+            .FromSqlRaw(query, intervalParameter, entityIdParameter)
             .ToListAsync();
+
+
 
         return result;
     }

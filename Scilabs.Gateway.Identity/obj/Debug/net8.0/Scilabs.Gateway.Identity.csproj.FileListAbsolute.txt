@@ -17,3 +17,4 @@
 /Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Identity/obj/Debug/net8.0/Scilabs.Gateway.Identity.csproj.AssemblyReference.cache
 /Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Identity/obj/Debug/net8.0/Scilabs..B13F14F8.Up2Date
 /Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Identity/obj/Debug/net8.0/Scilabs.Gateway.Identity.genruntimeconfig.cache
+/Users/alialawieh/RiderProjects/Scilabs.Gateway/Scilabs.Gateway.Identity/obj/Debug/net8.0/Scilabs.Gateway.Identity.sourcelink.json
