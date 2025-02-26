@@ -5,4 +5,4 @@
 /Scilabs.Gateway.Persistence/obj
 /Scilabs.Gateway.Infrastructure/obj
 *.dll
-/obj/*
+*/obj/*
