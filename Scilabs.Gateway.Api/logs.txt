@@ -19321,3 +19321,4 @@ Npgsql.PostgresException (0x80004005): 22023: period must be greater than 0
 2024-08-27 12:03:23.279 +02:00 [INF] HTTP GET /api/House/allById responded 200 in 49.4803 ms
 2024-08-27 12:03:29.412 +02:00 [INF] HTTP GET /api/House/allById responded 200 in 41.8378 ms
 2024-09-04 14:19:21.390 +02:00 [INF] Scilabs Gateway API starting
+2025-02-26 08:41:29.734 +01:00 [INF] Scilabs Gateway API starting
