@@ -7,6 +7,10 @@ services:
       - 8100:8080
     networks:
       - smart_city_external
+    environment:
+      ConnectionStrings__ScilabsConnectionString: "Host=timescale-db-quantumleap;Port=5432;Database=quantumleap;Username=quantumleap;Password=quantumleap;"
+      XScilabsApiKey: "123456"
+    pull_policy: always
         
         
         

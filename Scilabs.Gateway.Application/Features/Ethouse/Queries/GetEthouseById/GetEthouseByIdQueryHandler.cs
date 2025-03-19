@@ -1,3 +1,4 @@
+using System.Web;
 using AutoMapper;
 using MediatR;
 using Scilabs.Gateway.Application.Contract.Persistence;
@@ -14,10 +15,10 @@ public class GetEthouseByIdQueryHandler(IEthouseRepository repository, IMapper m
     {
         var houseDataList = await repository.ListAllById(request.EntityId);
 
-        if (houseDataList.Count == 0)
+        /*if (houseDataList.Count == 0)
         {
             throw new NotFoundException("Wrong EntityId? Id Not Found", request.EntityId);
-        }
+        }*/
 
         var @result = mapper.Map<List<BucketDiPHouse>>(houseDataList);
 

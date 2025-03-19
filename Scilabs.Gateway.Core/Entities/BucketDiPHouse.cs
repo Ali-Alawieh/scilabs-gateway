@@ -8,7 +8,8 @@ public class BucketDiPHouse
 
     [Column("timeindex")] public DateTime TimeIndex { get; set; }
 
-    [Column("batteryvoltage")] public double? Batteryvoltage { get; set; }
+    [Column("batteryvoltage")] 
+    public double? Batteryvoltage { get; set; }
 
     [Column("batterycurrent")]
     public double? BatteryCurrent { get; set; }
@@ -16,13 +17,21 @@ public class BucketDiPHouse
     [Column("batterypower")]
     public double? BatteryPower { get; set; }
     
-    [Column("solarvoltage")]
+    [Column("batterychargelevel")]
+    public double? BatterySoc { get; set; }
+    
+    [Column("batterycapacity")]
+    public double? BatteryCap { get; set; }
+    
+    [Column("solarmodulevoltage")]
     public double? SolarVoltage { get; set; }
+    
 
-    [Column("solarcurrent")]
+
+    [Column("solarmodulecurrent")]
     public double? SolarCurrent { get; set; }
 
-    [Column("solarpower")]
+    [Column("solarmodulepower")]
     public double? SolarPower { get; set; }
     
     [Column("loadvoltage")]
@@ -34,15 +43,15 @@ public class BucketDiPHouse
     [Column("loadpower")]
     public double? LoadPower { get; set; }
 
-    [Column("exchangevoltage")]
+    [Column("energyexchangevoltage")]
     public double? ExchangeVoltage { get; set; }
     
-    [Column("exchangecurrent")]
+    [Column("energyexchangecurrent")]
     public double? ExchangeCurrent { get; set; }
 
-    [Column("exchangepower")]
+    [Column("energyexchangepower")]
     public double? ExchangePower { get; set; }
 
-    [Column("currentexchangemode")]
+    [Column("energyexchangemode")]
     public double? CurrentExchangeMode { get; set; }
 }

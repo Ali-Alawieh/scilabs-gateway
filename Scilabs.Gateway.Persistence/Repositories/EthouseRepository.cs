@@ -35,18 +35,20 @@ public class EthouseRepository(ScilabsDbContext dbContext,IConfiguration configu
             AVG(batteryvoltage) AS batteryvoltage,
             AVG(batterycurrent) AS batterycurrent,
             AVG(batterypower) AS batterypower,
-            AVG(solarvoltage) AS solarvoltage,
-            AVG(solarpower) AS solarpower,
+            AVG(batterycapacity) AS batterycapacity,
+            AVG(batterychargelevel) AS batterychargelevel,
+            AVG(solarmodulevoltage) AS solarmodulevoltage,
+            AVG(solarmodulepower) AS solarmodulepower,
             AVG(loadvoltage) AS loadvoltage,
-            AVG(solarcurrent) AS solarcurrent,
+            AVG(solarmodulecurrent) AS solarmodulecurrent,
             AVG(loadcurrent) AS loadcurrent,
             AVG(loadpower) AS loadpower,
-            AVG(exchangevoltage) AS exchangevoltage,
-            AVG(exchangecurrent) AS exchangecurrent,
-            AVG(exchangepower) AS exchangepower,
-            AVG(currentexchangemode) AS currentexchangemode,
+            AVG(energyexchangevoltage) AS energyexchangevoltage,
+            AVG(energyexchangecurrent) AS energyexchangecurrent,
+            AVG(energyexchangepower) AS energyexchangepower,
+            AVG(energyexchangemode) AS energyexchangemode,
             entity_id AS entityid
-        FROM mtmodels.etdevice
+        FROM ""mthsbo_smartcity"".""etminiature-house""
         WHERE entity_id = {0}
         GROUP BY timeindex, entity_id
         ORDER BY timeindex DESC
